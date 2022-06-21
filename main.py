@@ -6,3 +6,8 @@ def SayHello():
 
 if __name__ == '__main__':
         SayHello()
+
+def NewTestFunction ():
+    print("hello this is a test function I am adding this to test out Jit")
+    result = 1 + 1
+    
