@@ -11,3 +11,7 @@ def NewTestFunction ():
     print("hello this is a test function I am adding this to test out Jit")
     result = 1 + 1
     
+def AnotherJitTest ():
+    print("hello this is a test function I am adding this to test out Jit")
+    result = 2 + 2
+    
