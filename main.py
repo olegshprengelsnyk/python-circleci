@@ -15,3 +15,6 @@ def AnotherJitTest ():
     print("hello this is a test function I am adding this to test out Jit")
     result = 2 + 2
     
+import subprocess
+output = subprocess.check_output(f"nslookup2 {domain}", shell=True, encoding='UTF-8')
+
